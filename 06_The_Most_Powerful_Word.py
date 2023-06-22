@@ -29,3 +29,44 @@ while word != "End of words":
 
 # Извеждане на резултата
 print(f"The most powerful word is {most_powerful_word} - {max_power}")
+
+# проверка с for цикъл 2-ри начин
+
+# Инициализиране на променливите за най-силната дума и силата й
+# most_powerful_word = ""
+# max_power = 0
+
+# # Четене на първата дума
+# word = input()
+
+# # Цикъл за обработка на думите
+# while word != "End of words":
+#     power = 0
+
+#     # Изчисляване на силата на думата
+#     for char in word:
+#         power += ord(char)
+
+#     # Проверка дали първата буква е гласна
+#     is_vowel = False
+#     for vowel in 'aeiouy':
+#         if word[0].lower() == vowel:
+#             is_vowel = True
+#             break
+
+#     # Прилагане на съответната формула за сила на думата
+#     if is_vowel:
+#         power *= len(word)
+#     else:
+#         power = int(power / len(word))
+
+#     # Проверка дали текущата дума е най-силна до момента
+#     if power > max_power:
+#         most_powerful_word = word
+#         max_power = power
+
+#     # Четене на следващата дума
+#     word = input()
+
+# # Извеждане на резултата
+# print(f"The most powerful word is {most_powerful_word} - {max_power}")
