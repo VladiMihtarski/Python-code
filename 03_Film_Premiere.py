@@ -29,5 +29,6 @@ if projection == "Star Wars" and number_of_tickets >= 4:
 elif projection == "Jumanji" and number_of_tickets == 2:
     total_price *= 0.85
 
-formatted_price = "{:.2f}".format(total_price)
+formatted_price = "{:.2f}".format(total_price) # print(f"Your bill is {total_price:.2f} leva.")
 print(f"Your bill is {formatted_price} leva.")
+
